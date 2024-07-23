@@ -1,7 +1,9 @@
+import Greet from "./components/Greet";
+
 const App = () => {
   return (
     <div>
-      <h1>Hi</h1>
+      <Greet name="First User" />
     </div>
   );
 };
