@@ -1,4 +1,5 @@
 import Buttox from "./components/Buttox";
+import Container from "./components/Container";
 import Greet from "./components/Greet";
 import Heading from "./components/Heading";
 import Input from "./components/Input";
@@ -38,6 +39,13 @@ const App = () => {
         handleClick={(event, id) => console.log("Button Clicked", event, id)}
       />
       <Input handleChange={(event) => console.log(event)} value="" />
+      <Container
+        styles={{
+          padding: 10,
+          border: "1px solid black",
+          color: "rgba(115,125,130,0.4)",
+        }}
+      />
     </div>
   );
 };
