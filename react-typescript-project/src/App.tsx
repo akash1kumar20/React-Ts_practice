@@ -7,6 +7,7 @@ import Oscar from "./components/Oscar";
 import Person from "./components/Person";
 import PersonList from "./components/PersonList";
 import Status from "./components/Status";
+import LogginComponent from "./states/LogginComponent";
 
 const App = () => {
   const personName = {
@@ -46,6 +47,7 @@ const App = () => {
           color: "rgba(115,125,130,0.4)",
         }}
       />
+      <LogginComponent />
     </div>
   );
 };
